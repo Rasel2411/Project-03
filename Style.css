@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 70vh;
+    background-color:#E554731A;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.ban-left{
+    margin-top: 150px;
+}
+.ban-img{
+    width: 480px;
+    height: 512px;
+    margin-top: 50px;
+}
+.ban-h1{
+    font-size: 50px;
+}
+.ban-p{
+    color:#27272799;
+    margin-top: 10px;
+}
+
+.btn{
+    width: 157px;
+    height: 50px;
+    background-color: #E55473;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.Featured{
+    text-align: center;
+}
+.Florers{
+    width: 400px;
+    height: 450px;
+
+
+}
+.Featured-h1{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.Featured-p{
+    margin-top: 30px;
+    color:#27272799;
+}
+
+.Fea-Florers{
+    display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+}
+.Fea-Florers-1{
+
+    background-color: #A72162;
+    border-radius: 150px 150px 0px 0px;
+   
+}
+.Fea-Florers-2{
+
+    background-color: #0597A0;
+    border-radius: 150px 150px 0px 0px;
+}
+.Fea-Florers-3{
+    background-color: #477D11;
+    border-radius: 150px 150px 0px 0px;
+    
+}
+.flowers-3{
+    height: 350px;
+    margin-top: 95px;
+
+}
+.flowers-1{
+    height: 350px;
+    margin-top: 95px; 
+
+}
+.flowers-2{
+    height: 350px;
+    margin-top: 95px; 
+
+}
+.icone{
+    background-color: #757070;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    padding: 50px;
+}
+.hot-del{
+    background-color: rgb(230, 226, 220);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.hot-del-left{
+
+    margin-top: 150px;
+}
+.off{
+    color: red;
+}
+.Instagramo-flower{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
+}
+.Instagram{
+
+    text-align: center;
+    margin-top: 100px;
+}
+.Subscribe{
+    text-align: center;
+    background-image: url(./images/Rectangle\ 9.png);
+    margin-top: 100px;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0px auto;
+    
+    
+    
+}
+.Subscribe-h1{
+    margin-top: 50px;
+    padding-top: 180px;
+    font-size: 50px;
+    
+    
+}
+.email{
+        height: 45px;
+        width: 300px;
+
+}
+.FlowerShop{
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        padding: 50px;
+}
+.FlowerShop-h1{
+    font-size: 50px;
+    
+}
+.Flower{
+    color: red;
+}
+
+
+@media only screen and (max-width: 600px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .ban-img{
+        width: 50%;
+        height: 200px;
+    }
+    .Fea-Florers{
+        flex-direction: column;
+    }
+}
+
+
